@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Home.aspx#" title="Lemon Bus"  description="">
+      <siteMapNode url="Home.aspx" title="Home"  description="" />        
+      <!--<siteMapNode url="Status.aspx" title="Status"  description=""  />-->
+      <siteMapNode url="" title="Ticket Management"  description="">
+        <siteMapNode url="Search.aspx" title="Search Trip"  description="" />
+        <siteMapNode url="Status.aspx" title="Book Ticket"  description=""/>
+        <!--<siteMapNode url="Personal/CancelTicket.aspx" title="Cancel Ticket"  description=""/>-->
+        <siteMapNode url="~/Admin/BusList.aspx" title="Bus List"   description=""/>
+        <siteMapNode url="~/Admin/BusDetails.aspx" title="Bus Details"   description=""/>
+      </siteMapNode>
+      <siteMapNode url="" title="Staff Management"  description="">
+        <siteMapNode url="~/Admin/CreateStaff.aspx" title="Create Staff"   description="" />
+        <siteMapNode url="~/Admin/StaffList.aspx" title="Staff List"  description=""/>
+        <siteMapNode url="~/Admin/SearchStaff.aspx" title="Search Staff" description=""/>
+      </siteMapNode>
+      <siteMapNode url="Personal/ChangePass.aspx" title="Change Password"  description=""/>
+      <!--<siteMapNode url="login.aspx" title="Login"  description=""   />-->
+      <siteMapNode url="logout.aspx" title="Logout"  description=""  />
+    </siteMapNode>
+</siteMap>
